@@ -4,11 +4,17 @@ import 'package:warikankun/screens/components/content_card.dart';
 import 'package:warikankun/screens/components/fixed_list.dart';
 import 'package:warikankun/screens/components/result.dart';
 
+///
+/// Main screen
+///
 class Index extends StatefulWidget {
   @override
   _IndexState createState() => _IndexState();
 }
 
+///
+/// Main screen state
+///
 class _IndexState extends State<Index> {
   int all = 0;
   int allNum = 0;
